@@ -1,0 +1,49 @@
+<menu>
+    <menuitem label="Cadastro">
+        <icon> fa-fw </icon>
+        <menu>
+          <menuitem label="Pessoas Físicas">
+            <icon>far:circle fa-fw </icon>
+            <action>PessoasHeaderList#method=onShow</action>
+          </menuitem>
+        </menu>
+      </menuitem>
+    <menuitem label='Home'>
+        <icon>fa:home fa-fw</icon>
+        <menu>
+            <menuitem label='Início'>
+                <icon>fa:life-ring fa-fw</icon>
+                <action>WelcomeView</action>
+            </menuitem>
+            
+            <menuitem label='Aprenda'>
+                <icon>fa:book fa-fw</icon>
+                <action>LearnView</action>
+            </menuitem>
+            
+            <menuitem label='Template'>
+                <icon>fa:desktop fa-fw</icon>
+                <action>TemplateView</action>
+            </menuitem>
+            
+            <menuitem label='Construa'>
+                <icon>fa:magic fa-fw</icon>
+                <action>BuildView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    <menuitem label='Configuração'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Ver módulos'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SystemModulesCheckView</action>
+            </menuitem>
+            
+            <menuitem label='Setup PHP'>
+                <icon>fa:code fa-fw</icon>
+                <action>SystemPHPInfoView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
